@@ -55,3 +55,16 @@ p {
     background-color: #88304e;
     color: #311d3f;
 }
+@media (max-width: 600px){
+    html {
+        height: auto;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        
+    }
+}
